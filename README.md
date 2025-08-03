@@ -1,13 +1,31 @@
-# novetech
+# novetech: iPhone Price Intelligence
 
-A Python-based AI-powered analytics project to monitor and forecast iPhone prices across global markets.
+A Python-based AI-powered project to monitor, analyze, and forecast iPhone pricing trends globally, with a special focus on the Japanese market.
 
-## 📊 Features
+## 📊 Project Features
 
-- Data scraping from e-commerce or resale platforms
-- Data cleaning and visualization
-- iPhone price trend prediction using machine learning
-- Support for backtesting and evaluation
+- 📱 iPhone product and model data acquisition
+- 💰 Real-time and historical price scraping from various sources
+- 📈 Price normalization, fluctuation analysis, and forecasting
+- 🌍 Global pricing trends visualization and comparison
+- 🇯🇵 Japanese market deep dive with localization and media insights
+- 🔥 Highlighting trending iPhone models and pricing in Japan
+
+## 📁 Project Structure
+
+```
+novetech/
+├── data/           # Raw and processed iPhone pricing datasets
+├── models/         # Trained AI/ML models for prediction
+├── notebooks/      # Jupyter notebooks for data exploration and analysis
+├── scripts/        # Python scripts for crawling, preprocessing, modeling
+├── media/          # Media sentiment analysis and Japanese news insights
+├── outputs/        # Graphs, reports, and visual results
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 ## 🧠 Tech Stack
 
@@ -15,17 +33,8 @@ A Python-based AI-powered analytics project to monitor and forecast iPhone price
 - pandas, NumPy, matplotlib
 - scikit-learn / XGBoost / LightGBM
 - Jupyter Notebook
-- Optional: FastAPI / Streamlit (for deployment)
-
-## 📁 Project Structure
-
-```
-novetech/
-├── data/
-├── models/
-├── notebooks/
-├── scripts/
-```
+- BeautifulSoup / requests / newspaper3k
+- Optional: FastAPI / Streamlit
 
 ## 🚀 Getting Started
 
